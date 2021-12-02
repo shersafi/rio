@@ -28,7 +28,6 @@ class Example extends React.Component {
 
 const Hero = () => (
   <>
-  
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>

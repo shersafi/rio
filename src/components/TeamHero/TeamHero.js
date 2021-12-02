@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Paragraph } from './THStyles';
+import { Boxes, Box, BoxNum, BoxText } from './THStyles';
 import {
   SectionDivider,
 } from '../../styles/GlobalComponents';
@@ -8,8 +8,24 @@ import {
 
 const TeamHero = () => (
   <>
-    <h1 style={{color: '#C9D1D9', textAlign: 'center', marginTop: '80px', paddingTop: '40px'}}>Conclusion🥳</h1>
+    <h1 style={{color: '#2C1338', textAlign: 'center', marginTop: '40px', paddingTop: '60px'}}>You're in good hands 😃</h1>
+    <br />
+    <br />
+    <div className="container" style={{display: 'flex', alignItems: 'center'}}>
+      <Boxes>
+        <Box>
 
+        </Box>
+
+        <Box>
+              
+        </Box>
+
+        <Box>
+              
+        </Box>
+      </Boxes>
+    </div>
     
   </>
 

@@ -313,3 +313,11 @@ export const Container3 = styled.div`
   background-size: cover;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
+
+export const Container4 = styled.div`
+  margin-top: 30px;
+  padding-bottom: 5%;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 40px 40px 40px 40px;
+`;
