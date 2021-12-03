@@ -321,3 +321,13 @@ export const Container4 = styled.div`
   width: 100%;
   border-radius: 40px 40px 40px 40px;
 `;
+
+export const Container5 = styled.div`
+  margin: 0 auto;
+  max-width: 1500px;
+  max-height: 1000px;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+`;
