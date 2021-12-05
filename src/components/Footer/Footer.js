@@ -19,7 +19,7 @@ const Social = () => {
   const { width } = useWindowSize();
 
   if (width > 700) return (
-    <Link href="https://github.com/shersafi/rio">
+    <Link href="https://github.com/shersafi/rio" passHref={true}>
       <SocialIcons>
         <AiFillGithub size='3rem' color="#2C1338"/>
       </SocialIcons>

@@ -2,6 +2,7 @@
 import { Layout } from '../layout/Layout';
 import { Section, Container, Container2, Container5 } from '../styles/GlobalComponents';
 import styled, { keyframes } from 'styled-components';
+import Head from 'next/head';
 
 const spin = keyframes`
   to { -webkit-transform: rotate(360deg); }
@@ -27,6 +28,10 @@ const Loader = styled.div`
 const Demo = () => {
   return (
     <Layout>
+      <Head>
+          <title>Rio | Demo</title>
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head> 
       <Container5>
           <Loader />  
           <iframe style={{position: 'relative', width: '100%', height: '800px', zIndex: '2'}} src="https://rio-client.herokuapp.com/chatroom"></iframe>

@@ -1,5 +1,6 @@
-import Document, { Head, Html, Main, NextScript } from 'next/document'
-import { ServerStyleSheet } from 'styled-components'
+import Document, { Head, Html, Main, NextScript } from 'next/document';
+import { ServerStyleSheet } from 'styled-components';
+import icon from '../../public/favicon.png';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -32,6 +33,7 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+          <link rel="icon" type="image/png" sizes="32x32" href={icon} />
         </Head>
         <body>
           <Main />
