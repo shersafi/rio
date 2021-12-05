@@ -34,7 +34,7 @@ const Demo = () => {
         </Head> 
       <Container5>
           <Loader />  
-          <iframe style={{position: 'relative', width: '100%', height: '800px', zIndex: '2'}} src="https://rio-client.herokuapp.com/chatroom"></iframe>
+          <iframe style={{position: 'relative', width: '100%', height: '800px', zIndex: '2'}} src="https://rio-client.herokuapp.com/"></iframe>
           
       </Container5>  
     </Layout>
