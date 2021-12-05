@@ -1,6 +1,6 @@
 import React from 'react';
 import sher from "../../../public/images/sher.jpg";
-import mij from "../../../public/images/unknown (4).png";
+import mij from "../../../public/mijalshrestha.jpg";
 import char from "../../../public/images/default.png";
 import { Paragraph } from './THStyles';
 import { HiBadgeCheck } from 'react-icons/hi';
@@ -27,12 +27,12 @@ const TeamHero = () => (
         </Box> 
         <Box>
           <img src={char} style={{borderRadius: '20%', height: '35%', float: 'left'}}></img>
-          <h3 style={{color: '#2C1338', fontSize: '26px', marginTop: '5%'}}>&nbsp;&nbsp;&nbsp;Charlie Zhao</h3>
+          <h3 style={{color: '#2C1338', fontSize: '26px', marginTop: '5%'}}>&nbsp;&nbsp;&nbsp;Yu Chen Zhao</h3>
           <h2 style={{color: '#2C1338', fontSize: '14px', marginTop: '1%', color: 'gray', fontWeight: 'lighter'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Back-end Developer</h2><br /><br />
-          <h1 style={{color: '#2C1338', fontSize: '17px', fontWeight: 'lighter', lineHeight: '25px'}}>Charlie took charge of developing the back-end of Rio. This includes the multi-player chat/drawing app component. He is a huge fan of SocketIO.</h1>    
+          <h1 style={{color: '#2C1338', fontSize: '17px', fontWeight: 'lighter', lineHeight: '25px'}}>Yu Chen took charge of developing the back-end of Rio. This includes the multi-player chat/drawing app component. He is a huge fan of SocketIO.</h1>    
         </Box>
         <Box>
-          <img src={char} style={{borderRadius: '20%', height: '35%', float: 'left'}}></img>
+          <img src={mij} style={{borderRadius: '20%', height: '35%', float: 'left'}}></img>
           <h3 style={{color: '#2C1338', fontSize: '26px', marginTop: '5%'}}>&nbsp;&nbsp;&nbsp;Mijal Shrestha</h3>
           <h2 style={{color: '#2C1338', fontSize: '14px', marginTop: '1%', color: 'gray', fontWeight: 'lighter'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Full-stack Support</h2><br /><br />
           <h1 style={{color: '#2C1338', fontSize: '17px', fontWeight: 'lighter', lineHeight: '25px'}}>Mijal took charge of supporting both the front-end and back-end of Rio. He enjoys both React and NodeJS.</h1>    

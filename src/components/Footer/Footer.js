@@ -37,7 +37,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made by Sher Safi, Charlie Zhao, and Mijal Shrestha</Slogan>
+          <Slogan>Made by Sher Safi, Yu Chen Zhao, and Mijal Shrestha</Slogan>
         </CompanyContainer>
         <Social />
         
