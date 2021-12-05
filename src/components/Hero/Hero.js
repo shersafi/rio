@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { useWindowSize } from "@reach/window-size";
-// import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { a11yDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import {
   Section,
@@ -66,7 +66,7 @@ const OtherSection = () => {
           <br />
           <br />
           <div className="code-body" style={{minWidth: '650px', marginTop: '-20px'}}>
-            <SyntaxHighlighter showLineNumbers={true} customStyle={{background: 'none'}}>
+            <SyntaxHighlighter showLineNumbers={true} style={a11yDark} customStyle={{background: 'none'}}>
               {codeBlock}
             </SyntaxHighlighter>
           </div>

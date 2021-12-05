@@ -1,6 +1,6 @@
 import React from 'react';
 import sher from "../../../public/images/sher.jpg";
-import mij from "../../../public/mijalshrestha.jpg";
+import mij from "../../../public/images/mijalshrestha.jpg";
 import char from "../../../public/images/default.png";
 import { Paragraph } from './THStyles';
 import { HiBadgeCheck } from 'react-icons/hi';
