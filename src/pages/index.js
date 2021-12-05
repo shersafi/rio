@@ -8,9 +8,7 @@ import { Section, Container, Container2, Container3 } from '../styles/GlobalComp
 const Home = () => {
   return (
     <Layout>
-      <Section grid>
-        <Hero />
-      </Section>
+      <Hero />
       <br />
       <br />
       <br />

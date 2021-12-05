@@ -1,6 +1,6 @@
 import InstallationHero from '../components/InstallationHero/IHero';
 import { Layout } from '../layout/Layout';
-import { Section, Container, Container2, Container3 } from '../styles/GlobalComponents';
+import { Container } from '../styles/GlobalComponents';
 
 
 const Installation = () => {

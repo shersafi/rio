@@ -22,6 +22,7 @@ var styles = {
     width: '26px',
     height: '20px',
     top: '30px',
+    right: '20px'
   },
   bmBurgerBars: {
     background: '#fff'
@@ -30,22 +31,23 @@ var styles = {
     background: '#a90000'
   },
   bmCrossButton: {
-    height: '24px',
-    width: '24px'
+    display: 'none',
   },
   bmCross: {
     background: '#bdc3c7'
   },
   bmMenuWrap: {
     position: 'fixed',
-    height: '100%'
+    right: '-160px',
+    top: '60px'
   },
+  
 }
 
 const MenuContainer = ({ children }) => {
   const { width } = useWindowSize();
 
-  if (width < 1000) return <Menu right styles={styles}>{children}</Menu>
+  if (width < 1000) return <Menu noOverlay right styles={styles}>{children}</Menu>
 
   return children;
 }
@@ -62,7 +64,7 @@ const Header = () => (
             marginBottom: 20,
           }}
         >
-        <img src={logo}></img>  
+        <img src={logo}></img>
         </a>
       </Link>
     </Div1>

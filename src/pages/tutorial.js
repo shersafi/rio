@@ -1,14 +1,15 @@
-import InstallationHero from '../components/InstallationHero/IHero';
+import TutorialHero from '../components/TutorialHero/THero';
 import { Layout } from '../layout/Layout';
-import { Section, Container, Container2, Container3 } from '../styles/GlobalComponents';
-
+import { Section, Container6, Container7} from '../styles/GlobalComponents';
 
 const Tutorial = () => {
     return (
       <Layout>
-        <Container> 
-          <InstallationHero/>
-        </Container> 
+        <br /><br /><br />   
+        <p style={{textAlign: 'center', fontSize: '46px', fontWeight: 'bold'}}>Create a Chat app With SocketIO!</p>
+        <Container6> 
+          <TutorialHero/>
+        </Container6> 
      </Layout>
     
     );

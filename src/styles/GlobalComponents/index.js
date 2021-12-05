@@ -22,7 +22,6 @@ export const Section = styled.section`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
 
-    width: calc(100vw - 32px);
     flex-direction: column;
   }
 
@@ -47,16 +46,8 @@ export const SectionTitle = styled.h2`
     padding: ${(props) => props.main ? '40px 0 12px' : '0'};
   }
 
-  @media ${props => props.theme.breakpoints.sm}{
-    font-size: 32px;
-    line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
-    line-height: ${(props) => props.main ? '32px' : '40px'};
-    margin-bottom: 8px;
-    padding: ${(props) => props.main ? '16px 0 8px' : '0'};
-    max-width: 100%;
-  }
-`
+`;
+
 
 export const SectionText = styled.p`
   max-width: 1500px;
@@ -319,8 +310,10 @@ export const Container4 = styled.div`
   padding-bottom: 5%;
   background-color: #fff;
   width: 100%;
-  border-radius: 40px 40px 40px 40px;
+  border-radius: 40px 40px 0px 0px;
 `;
+
+
 
 export const Container5 = styled.div`
   margin: 0 auto;
@@ -331,3 +324,24 @@ export const Container5 = styled.div`
   width: 100%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 `;
+
+export const Container6 = styled.div`
+  margin-top: 200px;
+  padding-bottom: 5%;
+  background-color: #fff;
+  width: 100%;
+`;
+
+export const Container7 = styled.div`
+  position: absolute;
+  z-index: 5;
+  margin-top: 30px;
+  height: 120%;
+  bottom: 400px;
+  padding: 200px;
+  background-color: transparent;
+  width: 100%;
+  border-radius: 0px 0px 40px 40px;
+`;
+
+

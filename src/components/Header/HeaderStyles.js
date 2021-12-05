@@ -53,9 +53,7 @@ export const Div2 = styled.div`
   margin-top: 10px;
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
-  }
+
 `;
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;

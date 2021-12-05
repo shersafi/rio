@@ -3,27 +3,40 @@ import styled from 'styled-components';
 export const Paragraph = styled.div`
   font-size: 18px;
   line-height: 30px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 14%;
+  margin-right: 14%;
   color: #1A202C;
   text-align: center;
   margin-bottom: 100px;
 `;
 
 export const Boxes = styled.div`
-  float: left;
-  margin: 0 auto;
+  background-color: #fff;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 450px 450px 450px;
+  margin: auto;
+
+  @media screen and (max-width: 1450px) {
+    grid-template-columns: none;
+    margin: auto;
+  }
+
+
+  
 `;
 
 export const Box = styled.div`
   background-color: #fff;
   box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
-  height: 30vw;
-  width: 25vw;
-  margin-left: 40px;
-  margin-bottom: 40px;
-  float: left;
-`;
+  height: 300px;
+  width: 400px;
+  padding: 24px;
+  
+
+  
+}`;
+
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;

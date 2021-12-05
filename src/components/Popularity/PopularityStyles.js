@@ -2,24 +2,27 @@ import styled from 'styled-components';
 import pattern from "../../../public/images/patternbg.png"
 
 export const Boxes = styled.div`
-  gap: 10px;
+  gap: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  margin: 24px 24px 40px;
+  margin: auto;
 
-  @media ${(props) => props.theme.breakpoints.md} {
-    gap: 16px;
-    margin: 20px 0 32px;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  @media ${(props) => props.theme.breakpoints.xl} {
+    grid-template-columns: 220px 220px;
+    margin: auto;
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    max-width: 500px;
-    margin: 24px auto;
+  @media screen and (max-width: 850px) {
+    grid-template-columns: none;
+    margin: auto;
   }
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: none;
+    margin: auto;
+  }
+
+  
 `;
 
 export const Box = styled.div`
@@ -37,14 +40,8 @@ export const Box = styled.div`
     padding: 16px;
   }
 
-  @media ${(props) => props.theme.breakpoints.sm} {
-    height: 110px;
-    padding: 12px;
-
-    &:nth-child(2n) {
-      grid-row: 2;
-    }
-  }
+  
+}
 `;
 export const BoxNum = styled.h5`
   font-style: normal;

@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import Link from 'next/link';
 import { SocialIcons } from '../Header/HeaderStyles';
+import { useWindowSize } from "@reach/window-size";
 import {
   CompanyContainer,
   FooterWrapper,
@@ -14,6 +15,20 @@ import {
   SocialIconsContainer,
 } from './FooterStyles';
 
+const Social = () => {
+  const { width } = useWindowSize();
+
+  if (width > 700) return (
+    <Link href="https://github.com/shersafi/rio">
+      <SocialIcons>
+        <AiFillGithub size='3rem' color="#2C1338"/>
+      </SocialIcons>
+    </Link>
+  )
+
+  return null;
+}
+
 const Footer = () => {
   return (
     <FooterWrapper>
@@ -24,11 +39,7 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Made by Sher Safi, Charlie Zhao, and Mijal Shrestha</Slogan>
         </CompanyContainer>
-        <Link href="https://github.com/shersafi/rio">
-          <SocialIcons>
-            <AiFillGithub size='3rem' color="#2C1338"/>
-          </SocialIcons>
-        </Link>
+        <Social />
         
       </SocialIconsContainer>
     </FooterWrapper>
