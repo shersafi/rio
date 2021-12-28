@@ -2,7 +2,7 @@
 
 <h1 align="center">Rio</h2>
 
-![alt text](https://github.com/shersafi/rio/blob/main/public/favicon.png)
+![alt text](https://github.com/shersafi/rio/blob/main/public/favicon.png =100x20)
 
 Rio - A full-stack chat app built with Express & Next.
 
