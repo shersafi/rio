@@ -1,0 +1,31 @@
+.whiteboard-container {
+  display: grid;
+  grid-template-rows: 0.95fr 0.1fr;
+  grid-template-areas:
+    "whiteboard"
+    "toolbar";
+}
+
+.whiteboard {
+  border: 3px solid #E27188;
+  width: 100%;
+  height: 100%;
+  grid-area: whiteboard;
+}
+
+.toolbar {
+  padding: 10px;
+  background: gray;
+  grid-area: toolbar;
+}
+
+.toolbar label {
+  color: white !important;
+  margin-left: 5px !important;
+  font-size: 25px;
+}
+
+.clear {
+  margin-top: 5px;
+  font-size: 20px;
+}
