@@ -4,7 +4,7 @@
 
 <img src="https://github.com/shersafi/rio/blob/main/public/favicon.png" width="200" height="200" align="center"/>
 
-Rio - A full-stack chat app built with Express & Next.
+Rio - An ephemeral chat with whiteboard. Perfect for studying!
 
 ## Running
 
