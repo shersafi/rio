@@ -8,7 +8,7 @@ Rio - An ephemeral chat with whiteboard. Perfect for studying!
 
 ## Running
 
-To run Slices, you will need [Node](https://nodejs.org/en/) to run the web application. Additionally, you will need all the external libraries which can be installed via `npm install`.
+To run Rio, you will need [Node](https://nodejs.org/en/) to run the web application. Additionally, you will need all the external libraries which can be installed via `npm install`.
 
 ## Required
 
