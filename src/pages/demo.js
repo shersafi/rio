@@ -9,6 +9,7 @@ const spin = keyframes`
 `;
 
 const Loader = styled.div`
+  z-index: 1;
   position: absolute;
   top: 50%;
   left: 49%;
@@ -21,7 +22,6 @@ const Loader = styled.div`
   border-top-color: black;
   animation: ${spin} 1s ease-in-out infinite;
   -webkit-animation: ${spin} 1s ease-in-out infinite;
-  z-index: 1;
   
 `;
 
